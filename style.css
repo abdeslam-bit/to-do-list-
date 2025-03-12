@@ -1,0 +1,89 @@
+body{
+    font-family: poppins;
+    display: flex;
+    justify-content: center;
+    background-color: lightslategray;
+}
+.all{
+    width: 60%;
+    margin-top: 100px;
+}
+.head{
+    background-color: rgb(17, 5, 28);
+    text-align: center;
+    color: white;
+}
+h1{
+    display: inline;
+}
+.add{
+    float: right;
+    margin-right: 10px;
+    margin-top: 5px;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: none;
+}
+#content{
+    background-color: rgb(194, 194, 194);
+    padding: 10px;
+    min-height: 35px;
+}
+
+.assignment{
+    direction: rtl;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+    border-bottom: 1px solid;
+    transition: box-shadow 0.2s;
+}
+.assignementAfter{
+    direction: rtl;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(75, 98, 233);
+    border-bottom: 1px solid;
+    transition: box-shadow 0.2s;
+}
+.assignment:hover,
+.assignementAfter:hover{
+    box-shadow: 0px 0px 10px rgb(29, 29, 29);
+}
+.title{
+    width: 65%;
+}
+.btns{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+.circle{
+    height: 45px;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: none;
+    color: white;
+}
+.delete{
+    background-color: rgb(153, 27, 27);
+}
+.done{
+    background-color: green;
+}
+.donee{
+    background-color: rgb(134, 39, 39);
+}
+.update{
+    background-color: rgb(6, 6, 164);
+}
